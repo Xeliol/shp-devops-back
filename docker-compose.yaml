@@ -2,4 +2,4 @@ services:
     backend:
         image: xeliol/shp-devops-back:latest
         ports:
-            - 8093:80
+            - 8105:80
