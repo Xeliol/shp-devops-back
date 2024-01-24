@@ -5,6 +5,6 @@ WORKDIR /app
 COPY . .
 
 # установка зависимостей и сборка
-RUN go build .
+RUN go build -o app .
 
 CMD "./shp-devops-back"
