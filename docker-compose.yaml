@@ -1,5 +1,5 @@
 services:
     backend:
-        image: iorp/common-numbers:latest
+        image: xeliol/shp-devops-back:latest
         ports:
-            - 8101:8080
+            - 8093:80
