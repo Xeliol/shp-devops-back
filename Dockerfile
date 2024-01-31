@@ -7,4 +7,4 @@ COPY . .
 # установка зависимостей и сборка
 RUN go build -o app .
 
-CMD "./shp-devops-back"
+CMD "./app"
