@@ -1,7 +1,7 @@
 pipeline {
     agent none
     environment {
-        IMAGE_NAME = 'xeliol/django_demo'
+        IMAGE_NAME = 'xeliol/shp-devops-back'
         HUB_CRED_ID = 'Docker_Marinin'
         PROJECT_DIR = 'common_marinin_django'
     }
